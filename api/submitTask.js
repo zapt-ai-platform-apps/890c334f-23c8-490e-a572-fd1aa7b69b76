@@ -1,5 +1,5 @@
 import { tasks, task_responses, user_rewards } from '../drizzle/schema.js';
-import { authenticateUser } from "./_apiUtils.js"
+import { authenticateUser } from "./_apiUtils.js";
 import { neon } from '@neondatabase/serverless';
 import { drizzle } from 'drizzle-orm/neon-http';
 import { eq } from 'drizzle-orm';
